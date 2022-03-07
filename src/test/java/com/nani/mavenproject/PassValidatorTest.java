@@ -8,7 +8,7 @@ public class PassValidatorTest {
 	@Test
 	public void test() {
 		//PassValidator ob=new PassValidator();
-		boolean res=PassValidator.isValid("abc123");
+		boolean res=PassValidator.isValid("abc");
 		assertEquals(true,res);
 	}
 
